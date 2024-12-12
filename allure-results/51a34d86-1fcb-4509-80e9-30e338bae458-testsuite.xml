@@ -1,0 +1,283 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1731541473361' stop='1731541477391'>
+    <name>Testes automatizados API - Tarefas 1 e 2</name>
+    <title>Testes automatizados API - Tarefas 1 e 2</title>
+    <test-cases>
+        <test-case start='1731541473361' status='passed' stop='1731541474998'>
+            <name>Validar a inserção de registro</name>
+            <title>Validar a inserção de registro</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1731541475028' status='passed' stop='1731541475229'>
+            <name>Validar a edição de nome do registro</name>
+            <title>Validar a edição de nome do registro</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1731541475248' status='passed' stop='1731541475466'>
+            <name>Validar a edição de telefone do registro</name>
+            <title>Validar a edição de telefone do registro</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1731541475481' status='passed' stop='1731541475673'>
+            <name>Validar a edição de endereço do registro</name>
+            <title>Validar a edição de endereço do registro</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1731541475686' status='broken' stop='1731541476490'>
+            <name>Validar a exclusão do último registro</name>
+            <title>Validar a exclusão do último registro</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>`cy.request()` failed on:
+                
+                https://6734f1905995834c8a917363.mockapi.io/outsera_challenge/Exemplo/31
+                
+                The response we received from your web server was:
+                
+                  > 404: Not Found
+                
+                This was considered a failure because the status code was not `2xx` or `3xx`.
+                
+                If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+                
+                -----------------------------------------------------------
+                
+                The request we sent was:
+                
+                Method: DELETE
+                URL: https://6734f1905995834c8a917363.mockapi.io/outsera_challenge/Exemplo/31
+                Headers: {
+                  "Connection": "keep-alive",
+                  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+                  "accept": "*/*",
+                  "accept-encoding": "gzip, deflate",
+                  "content-length": 0
+                }
+                
+                -----------------------------------------------------------
+                
+                The response we got was:
+                
+                Status: 404 - Not Found
+                Headers: {
+                  "server": "Cowboy",
+                  "report-to": "{\"group\":\"heroku-nel\",\"max_age\":3600,\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?ts=1731541475&amp;sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&amp;s=DSp2HSq%2B8oezVd45CjQ27YQZrJ7TiZkWEnZLkTBAuwI%3D\"}]}",
+                  "reporting-endpoints": "heroku-nel=https://nel.heroku.com/reports?ts=1731541475&amp;sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&amp;s=DSp2HSq%2B8oezVd45CjQ27YQZrJ7TiZkWEnZLkTBAuwI%3D",
+                  "nel": "{\"report_to\":\"heroku-nel\",\"max_age\":3600,\"success_fraction\":0.005,\"failure_fraction\":0.05,\"response_headers\":[\"Via\"]}",
+                  "connection": "keep-alive",
+                  "x-powered-by": "Express",
+                  "access-control-allow-origin": "*",
+                  "access-control-allow-methods": "GET,PUT,POST,DELETE,OPTIONS",
+                  "access-control-allow-headers": "X-Requested-With,Content-Type,Cache-Control,access_token",
+                  "content-type": "application/json",
+                  "content-length": "11",
+                  "date": "Wed, 13 Nov 2024 23:44:35 GMT",
+                  "via": "1.1 vegur"
+                }
+                Body: Not found
+                
+                
+                https://on.cypress.io/request</message>
+                <stack-trace>CypressError: `cy.request()` failed on:
+                
+                https://6734f1905995834c8a917363.mockapi.io/outsera_challenge/Exemplo/31
+                
+                The response we received from your web server was:
+                
+                  > 404: Not Found
+                
+                This was considered a failure because the status code was not `2xx` or `3xx`.
+                
+                If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+                
+                -----------------------------------------------------------
+                
+                The request we sent was:
+                
+                Method: DELETE
+                URL: https://6734f1905995834c8a917363.mockapi.io/outsera_challenge/Exemplo/31
+                Headers: {
+                  "Connection": "keep-alive",
+                  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+                  "accept": "*/*",
+                  "accept-encoding": "gzip, deflate",
+                  "content-length": 0
+                }
+                
+                -----------------------------------------------------------
+                
+                The response we got was:
+                
+                Status: 404 - Not Found
+                Headers: {
+                  "server": "Cowboy",
+                  "report-to": "{\"group\":\"heroku-nel\",\"max_age\":3600,\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?ts=1731541475&amp;sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&amp;s=DSp2HSq%2B8oezVd45CjQ27YQZrJ7TiZkWEnZLkTBAuwI%3D\"}]}",
+                  "reporting-endpoints": "heroku-nel=https://nel.heroku.com/reports?ts=1731541475&amp;sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&amp;s=DSp2HSq%2B8oezVd45CjQ27YQZrJ7TiZkWEnZLkTBAuwI%3D",
+                  "nel": "{\"report_to\":\"heroku-nel\",\"max_age\":3600,\"success_fraction\":0.005,\"failure_fraction\":0.05,\"response_headers\":[\"Via\"]}",
+                  "connection": "keep-alive",
+                  "x-powered-by": "Express",
+                  "access-control-allow-origin": "*",
+                  "access-control-allow-methods": "GET,PUT,POST,DELETE,OPTIONS",
+                  "access-control-allow-headers": "X-Requested-With,Content-Type,Cache-Control,access_token",
+                  "content-type": "application/json",
+                  "content-length": "11",
+                  "date": "Wed, 13 Nov 2024 23:44:35 GMT",
+                  "via": "1.1 vegur"
+                }
+                Body: Not found
+                
+                
+                https://on.cypress.io/request
+                    at &lt;unknown> (http://localhost:4918/__cypress/runner/cypress_runner.js:132719:72)
+                    at tryCatcher (http://localhost:4918/__cypress/runner/cypress_runner.js:1807:23)
+                    at Promise._settlePromiseFromHandler (http://localhost:4918/__cypress/runner/cypress_runner.js:1519:31)
+                    at Promise._settlePromise (http://localhost:4918/__cypress/runner/cypress_runner.js:1576:18)
+                    at Promise._settlePromise0 (http://localhost:4918/__cypress/runner/cypress_runner.js:1621:10)
+                    at Promise._settlePromises (http://localhost:4918/__cypress/runner/cypress_runner.js:1701:18)
+                    at _drainQueueStep (http://localhost:4918/__cypress/runner/cypress_runner.js:2407:12)
+                    at _drainQueue (http://localhost:4918/__cypress/runner/cypress_runner.js:2400:9)
+                    at Async._drainQueues (http://localhost:4918/__cypress/runner/cypress_runner.js:2416:5)
+                    at Async.drainQueues (http://localhost:4918/__cypress/runner/cypress_runner.js:2286:14)
+                From Your Spec Code:
+                    at Context.eval (webpack://outsera_challenge_api/./cypress/support/commands.js:67:11)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1731541476663' status='broken' stop='1731541477356'>
+            <name>Validar a exclusão de um registro</name>
+            <title>Validar a exclusão de um registro</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>`cy.request()` failed on:
+                
+                https://6734f1905995834c8a917363.mockapi.io/outsera_challenge/Exemplo/100
+                
+                The response we received from your web server was:
+                
+                  > 404: Not Found
+                
+                This was considered a failure because the status code was not `2xx` or `3xx`.
+                
+                If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+                
+                -----------------------------------------------------------
+                
+                The request we sent was:
+                
+                Method: DELETE
+                URL: https://6734f1905995834c8a917363.mockapi.io/outsera_challenge/Exemplo/100
+                Headers: {
+                  "Connection": "keep-alive",
+                  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+                  "accept": "*/*",
+                  "accept-encoding": "gzip, deflate",
+                  "content-length": 0
+                }
+                
+                -----------------------------------------------------------
+                
+                The response we got was:
+                
+                Status: 404 - Not Found
+                Headers: {
+                  "server": "Cowboy",
+                  "report-to": "{\"group\":\"heroku-nel\",\"max_age\":3600,\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?ts=1731541476&amp;sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&amp;s=jm2LFKNLaDoJjrNom43yaJbjzPg%2BcekJvJd3iI92hxk%3D\"}]}",
+                  "reporting-endpoints": "heroku-nel=https://nel.heroku.com/reports?ts=1731541476&amp;sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&amp;s=jm2LFKNLaDoJjrNom43yaJbjzPg%2BcekJvJd3iI92hxk%3D",
+                  "nel": "{\"report_to\":\"heroku-nel\",\"max_age\":3600,\"success_fraction\":0.005,\"failure_fraction\":0.05,\"response_headers\":[\"Via\"]}",
+                  "connection": "keep-alive",
+                  "x-powered-by": "Express",
+                  "access-control-allow-origin": "*",
+                  "access-control-allow-methods": "GET,PUT,POST,DELETE,OPTIONS",
+                  "access-control-allow-headers": "X-Requested-With,Content-Type,Cache-Control,access_token",
+                  "content-type": "application/json",
+                  "content-length": "11",
+                  "date": "Wed, 13 Nov 2024 23:44:36 GMT",
+                  "via": "1.1 vegur"
+                }
+                Body: Not found
+                
+                
+                https://on.cypress.io/request</message>
+                <stack-trace>CypressError: `cy.request()` failed on:
+                
+                https://6734f1905995834c8a917363.mockapi.io/outsera_challenge/Exemplo/100
+                
+                The response we received from your web server was:
+                
+                  > 404: Not Found
+                
+                This was considered a failure because the status code was not `2xx` or `3xx`.
+                
+                If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+                
+                -----------------------------------------------------------
+                
+                The request we sent was:
+                
+                Method: DELETE
+                URL: https://6734f1905995834c8a917363.mockapi.io/outsera_challenge/Exemplo/100
+                Headers: {
+                  "Connection": "keep-alive",
+                  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+                  "accept": "*/*",
+                  "accept-encoding": "gzip, deflate",
+                  "content-length": 0
+                }
+                
+                -----------------------------------------------------------
+                
+                The response we got was:
+                
+                Status: 404 - Not Found
+                Headers: {
+                  "server": "Cowboy",
+                  "report-to": "{\"group\":\"heroku-nel\",\"max_age\":3600,\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?ts=1731541476&amp;sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&amp;s=jm2LFKNLaDoJjrNom43yaJbjzPg%2BcekJvJd3iI92hxk%3D\"}]}",
+                  "reporting-endpoints": "heroku-nel=https://nel.heroku.com/reports?ts=1731541476&amp;sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&amp;s=jm2LFKNLaDoJjrNom43yaJbjzPg%2BcekJvJd3iI92hxk%3D",
+                  "nel": "{\"report_to\":\"heroku-nel\",\"max_age\":3600,\"success_fraction\":0.005,\"failure_fraction\":0.05,\"response_headers\":[\"Via\"]}",
+                  "connection": "keep-alive",
+                  "x-powered-by": "Express",
+                  "access-control-allow-origin": "*",
+                  "access-control-allow-methods": "GET,PUT,POST,DELETE,OPTIONS",
+                  "access-control-allow-headers": "X-Requested-With,Content-Type,Cache-Control,access_token",
+                  "content-type": "application/json",
+                  "content-length": "11",
+                  "date": "Wed, 13 Nov 2024 23:44:36 GMT",
+                  "via": "1.1 vegur"
+                }
+                Body: Not found
+                
+                
+                https://on.cypress.io/request
+                    at &lt;unknown> (http://localhost:4918/__cypress/runner/cypress_runner.js:132719:72)
+                    at tryCatcher (http://localhost:4918/__cypress/runner/cypress_runner.js:1807:23)
+                    at Promise._settlePromiseFromHandler (http://localhost:4918/__cypress/runner/cypress_runner.js:1519:31)
+                    at Promise._settlePromise (http://localhost:4918/__cypress/runner/cypress_runner.js:1576:18)
+                    at Promise._settlePromise0 (http://localhost:4918/__cypress/runner/cypress_runner.js:1621:10)
+                    at Promise._settlePromises (http://localhost:4918/__cypress/runner/cypress_runner.js:1701:18)
+                    at _drainQueueStep (http://localhost:4918/__cypress/runner/cypress_runner.js:2407:12)
+                    at _drainQueue (http://localhost:4918/__cypress/runner/cypress_runner.js:2400:9)
+                    at Async._drainQueues (http://localhost:4918/__cypress/runner/cypress_runner.js:2416:5)
+                    at Async.drainQueues (http://localhost:4918/__cypress/runner/cypress_runner.js:2286:14)
+                From Your Spec Code:
+                    at Context.eval (webpack://outsera_challenge_api/./cypress/support/commands.js:77:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

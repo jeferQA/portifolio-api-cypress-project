@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1732904726672' stop='1732904728736'>
+    <name>Testes automatizados API - Tarefas 1 e 2</name>
+    <title>Testes automatizados API - Tarefas 1 e 2</title>
+    <test-cases>
+        <test-case start='1732904726672' status='passed' stop='1732904727388'>
+            <name>Validar a inserção de registro</name>
+            <title>Validar a inserção de registro</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1732904727420' status='passed' stop='1732904727617'>
+            <name>Validar a edição de nome do registro</name>
+            <title>Validar a edição de nome do registro</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1732904727632' status='passed' stop='1732904727817'>
+            <name>Validar a edição de telefone do registro</name>
+            <title>Validar a edição de telefone do registro</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1732904727839' status='passed' stop='1732904728028'>
+            <name>Validar a edição de endereço do registro</name>
+            <title>Validar a edição de endereço do registro</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1732904728051' status='passed' stop='1732904728402'>
+            <name>Validar a exclusão do último registro</name>
+            <title>Validar a exclusão do último registro</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1732904728416' status='passed' stop='1732904728736'>
+            <name>Validar a exclusão de um registro aleatório</name>
+            <title>Validar a exclusão de um registro aleatório</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
